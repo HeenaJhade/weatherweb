@@ -1,0 +1,131 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e0f7fa 0%, #fffde4 100%);
+    background-attachment: fixed;
+    transition: background 0.5s;
+  
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #16a864;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    text-shadow: 0 2px 12px rgba(94, 13, 244, 0.10), 0 1px 0 #fff;
+    background: linear-gradient(90deg, #16a864 40%, #5e0df4 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+
+.morning {
+    background-image: url(morning.jpg);
+}
+
+.night {
+    background-image: url(night.jpg);
+}
+
+.container {
+    max-width: 420px;
+    margin: 80px auto;
+    padding: 32px 24px;
+    background: rgba(255,255,255,0.85);
+    border-radius: 18px;
+    box-shadow: 0 8px 32px rgba(44, 62, 80, 0.12);
+}
+
+.mail {
+    padding: 1.5rem 0;
+    text-align: center;
+    background: transparent;
+}
+
+.mail input[type="text"] {
+    height: 2.5rem;
+    width: 70%;
+    background: #f7fafd;
+    font-size: 1rem;
+    padding: 0 12px;
+    border: 1.5px solid #b2bec3;
+    border-radius: 6px;
+    margin-right: 8px;
+    outline: none;
+    transition: border 0.2s;
+}
+
+.mail input[type="text"]:focus {
+    border-color: #16a864;
+}
+
+.mail input[type="submit"] {
+    height: 2.5rem;
+    width: 6rem;
+    background: linear-gradient(90deg, #16a864 60%, #5e0df4 100%);
+    color: #fff;
+    font-weight: 600;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.mail input[type="submit"]:hover {
+    background: linear-gradient(90deg, #5e0df4 60%, #16a864 100%);
+}
+
+.display {
+    text-align: center;
+    width: 100%;
+    color: #16a864;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 24px 0;
+    border-radius: 10px;
+    background: rgba(245, 245, 245, 0.85);
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.07);
+}
+
+.wrapper h2 {
+    padding: 8px 0;
+    text-align: center;
+    font-size: 2rem;
+    color: #04214c;
+    letter-spacing: 1px;
+}
+
+.wrapper h2 span {
+    font-size: 1.3em;
+    color: #5e0df4;
+}
+
+.wrapper p {
+    margin: 18px 0;
+    text-align: left;
+    color: #04214c;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.wrapper p span {
+    color: #16a864;
+    font-weight: 600;
+    font-size: 1.1em;
+}
